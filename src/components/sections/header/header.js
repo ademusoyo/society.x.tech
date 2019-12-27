@@ -14,7 +14,7 @@ import {
 } from "./style"
 
 import { Container } from "../../global"
-import p1 from '../../../images/me/green-skew.png';
+import p1 from '../../../images/collaborating.png';
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 
 
@@ -63,7 +63,7 @@ class Header extends Component {
                   Check your inbox! You should be recieving a confirmation. 
                 </FormSubtitle>
               }
-                            {
+              {
                 this.state.data && this.state.data.result === 'error' &&
                 <FormSubtitle>
                  There was an issue with you trying to subscribe. Try and subscribe directly <FormSubtitleLink href="https://mailchi.mp/02da2a5b2d98/societyxtech" target="_blank" rel="noreferrer noopener">here.</FormSubtitleLink>
