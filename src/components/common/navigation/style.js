@@ -48,7 +48,7 @@ export const NavItem = styled.li`
   a {
     text-decoration: none;
     opacity: 0.9;
-    color: ${props => props.theme.color.black.regular};
+    color: ${props =>props.theme.color.secondary}
   }
 
   &.active {
@@ -68,7 +68,7 @@ export const MobileMenu = styled.div`
 export const Brand = styled.div`
   font-family: ${props => props.theme.font.extrabold};
   ${props => props.theme.font_size.regular};
-  color: ${props => props.theme.color.black.regular};
+  color: ${props => props.theme.color.silver};
   text-decoration: none;
   letter-spacing: 1px;
   margin: 0;
@@ -78,7 +78,7 @@ export const Brand = styled.div`
     padding: 0;
 
     a {
-      color: ${props => props.theme.color.black.regular};
+      color: ${props => props.theme.color.secondary};
       text-decoration: none;
     }
   }
@@ -119,6 +119,7 @@ export const Mobile = styled.div`
     }
   `}
 `
+
 
 // Background blur info
 // background-color: ${props => props.scrolled && `rgba(245, 245, 250, .8`};
